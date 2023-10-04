@@ -1,4 +1,19 @@
 body {
-    display: grid;
-    font-family: 
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+h1, h2 { 
+    display: inline-flexbox;
+}
+nav {
+    display: inline-flexbox;
+    background-color: bisque;
+}
+main {
+    background-color: ghostwhite;
+}
+article {
+    background-color: lightskyblue;
+}
+p {
+    background-color: X;
 }
