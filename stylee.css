@@ -1,19 +1,53 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif
+    
+}
+a {
+    text-decoration: dotted;
+}
+a:link {
+    text-un: dotted;
+}
+a:visited {
+    text-decoration: none;
+}
+a:focus {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: dotted;
+}
+img .profile-pic {
+    max-height: 8rem;
+    padding: 0 0;
+    margin: 10rem;
+}
+header {
+    display: inline-block;
 }
 h1, h2 { 
-    display: inline-flexbox;
+    display: inline-block;
+    font-size: 1rem;
 }
+
 nav {
     display: inline-flexbox;
     background-color: bisque;
+    max-height: 8rem;
 }
 main {
     background-color: ghostwhite;
+
 }
 article {
     background-color: lightskyblue;
 }
 p {
     background-color: X;
+}
+footer {
+    sticky: bottom 0px; 
 }
