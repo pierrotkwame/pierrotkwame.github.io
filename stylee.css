@@ -1,5 +1,7 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: green; 
+    color: brown; 
     
 }
 a {
@@ -38,14 +40,15 @@ nav {
     max-height: 8rem;
 }
 main {
-    background-color: ghostwhite;
+    background-color: greenyellow;
 
 }
 article {
-    background-color: lightskyblue;
+    background-color: lightgreen;
 }
 p {
-    background-color: X;
+    background-color: whitesmoke;
+    padding: 0 0; 
 }
 footer {
     margin-bottom: ;
