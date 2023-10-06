@@ -22,6 +22,10 @@ a:hover {
 a:active {
     text-decoration: dotted;
 }
+p {
+    background-color: whitesmoke;
+    padding: 0; 
+}
 img .profile-pic {
     max-height: 8rem;
     
@@ -32,24 +36,22 @@ header {
 h1, h2 { 
     display: inline;
     font-size: 1rem;
+    padding: 0;
 }
 
 nav {
-    display: inline-block;
     background-color: bisque;
     max-height: 8rem;
 }
 main {
+    columns: 500px 2;
     background-color: greenyellow;
 
 }
 article {
     background-color: lightgreen;
 }
-p {
-    background-color: whitesmoke;
-    padding: 0 0; 
-}
+
 footer {
     margin-top: 0;
 }
