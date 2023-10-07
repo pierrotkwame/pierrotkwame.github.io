@@ -35,10 +35,6 @@ nav {
     text-transform: uppercase;
     margin: 10px 1em;
 }
-.log-link {
-    text-transform: none;
-    margin-bottom: 5px;
-}
 .profile-pic {
     max-height: 1em;
 }
@@ -48,6 +44,11 @@ main {
     flex-direction: column;
     min-height: 1000px;
     margin: 2rem 2rem;
+}
+.log-link {
+    text-transform: none;
+    text-align: left;
+    margin-bottom: 5px;
 }
 article {
 }
