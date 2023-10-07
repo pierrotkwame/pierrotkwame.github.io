@@ -1,23 +1,22 @@
 body {
-    background-color: #e4e9e2; 
+    background-color: #2f3e46ff;
     max-width: 1000px;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #2f3e46ff; 
+    color: #e4e9e2; 
     font-size: 40px;
     font-family: 'Merriweather', Georgia, serif;
     
 }
 a:link, a:visited, a:focus {
-    color: #2f3e46ff;
+    color: #e4e9e2;
     font-weight: bold;
     text-decoration: none;
-    text-transform: uppercase;
 }
 a:hover, a:active {
-    color: #2f3e46ff;
+    color: #e4e9e2;
     text-decoration: underline dashed;
 }
 img .profile-pic {
@@ -27,12 +26,18 @@ img .profile-pic {
 nav {
     display: flex;
     flex-flow: row wrap;
+    border-bottom: 2px dashed;
     justify-content: center;
     max-height: 1em;
 }
 .nav-item {
     font-size: 0.5em;
-    margin: 10px 50px;
+    text-transform: uppercase;
+    margin: 10px 1em;
+}
+.log-link {
+    text-transform: none;
+    margin-bottom: 5px;
 }
 .profile-pic {
     max-height: 1em;
@@ -50,6 +55,7 @@ footer {
     margin-top: 1em;
     display: flex;
     flex-flow: row wrap;
+    border-top: 2px dashed;
     justify-content: center;
 }
 footer p {
